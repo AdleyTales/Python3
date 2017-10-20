@@ -1,8 +1,10 @@
 # Python3学习笔记
 
-<center>
-![](./images/python3.png)
-</center>
+<div align='center' >
+<img style='border:3px solid #ccc;border-radius:2px' width="400" height="150" src="images/python3.png"/>
+</div>
+
+
 
 ### 编程语言的基础：
 ```
