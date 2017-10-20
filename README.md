@@ -59,21 +59,30 @@
 
 ### python高级特性：
   - 切片：
-      [:3] 前三项
-      [-3:] 后三项
-      [:20:2] 取前20项,每隔2项取一次
 
-      注意一下：字符串也可以切片 元祖tuple都可以
+        [:3] 前三项
+
+        [-3:] 后三项
+
+        [:20:2] 取前20项,每隔2项取一次s
+
+        注意一下：字符串也可以切片 元祖tuple都可以
 
   - 迭代器：
+
       可以通过for in 遍历，这种遍历叫做迭代
+
       dict 可以迭代
+
         1. for k in dict:
-          print(k) #key值
+              print(k) #key值
+
         2. for v in dict.values():
-          print(v)
+              print(v)
+
         3. for k,v in dict.items():
-          print(k,v)
-      字符串 可以迭代
+              print(k,v)
+
+        字符串 可以迭代
 
 ### 模块
