@@ -1,8 +1,8 @@
 # Python3学习笔记
 
-<div align=center>
+<center>
 ![](./images/python3.png)
-</div>
+</center>
 
 ### 编程语言的基础：
 ```
