@@ -85,4 +85,31 @@
 
         字符串 可以迭代
 
-### 模块
+    - 列表生成器：
+
+        通过列表直接创建一个列表
+
+             [x*x for x in range(1,16)]  
+
+             [x*x for x in range(1,16) if x%2 == 0]
+
+             [m + n for m in 'ABC' for n in 'XYZ']
+
+    - 生成器：
+            只要把一个列表生成式的[]改成()，就创建了一个
+            generator
+
+            g = (x * x for x in range(10))
+
+            for n in g:
+
+            print(n)
+
+    - 迭代器：
+            可以使用isinstance()判断一个对象是否是Iterable对象
+
+            生成器都是Iterator对象，但list、dict、str虽然是Iterable，却不是Iterator
+
+### 模块：
+
+

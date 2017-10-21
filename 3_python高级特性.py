@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from collections import Iterable
 
 l = ['hsfkdj','1232','true','nnn','mmmm',1212]
 print(l[:2]) #前两项
@@ -32,3 +33,11 @@ for value in d.values():
 print('#########################')
 for k,v in d.items():
     print('k:',k,'v:',v)
+
+print('#########################')
+ss = [x*x for x in range(1,16) if x%2 == 0]  
+print(ss)
+
+print('#########################')
+li = [1,2,3,4,5]
+print(isinstance(li,Iterable))
